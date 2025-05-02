@@ -70,3 +70,4 @@ EXPOSE 8080
 EXPOSE 80
 # setting work directory
 WORKDIR $container_project_path
+CMD ["apache2-foreground"]
