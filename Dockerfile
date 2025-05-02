@@ -66,5 +66,6 @@ RUN chown -R $user:www-data $container_project_path
 # changing user
 USER $user
 
+EXPOSE 8080
 # setting work directory
 WORKDIR $container_project_path
